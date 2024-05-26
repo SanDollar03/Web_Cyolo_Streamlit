@@ -1,0 +1,27 @@
+#フォルダ構成
+
+your_project_folder/
+│
+├── app.py
+├── requirements.txt
+├── models/
+│   └── (your custom models will be saved here)
+├── csv/
+│   └── (detection logs will be saved here)
+└── title.jpg
+
+#requirements.txt
+
+streamlit
+opencv-python-headless
+ultralytics
+numpy
+pandas
+matplotlib
+
+#嘉造環境作成
+python -m venv env_web_cyolov8
+#アクティベート
+.\env_web_cyolov8\Scripts\activate
+#requirements.txtの実行
+pip install -r requirements.txt
