@@ -25,3 +25,7 @@ python -m venv env_web_cyolov8
 .\env_web_cyolov8\Scripts\activate
 #requirements.txtの実行
 pip install -r requirements.txt
+
+#バッチファイル
+cd C:\Users\PJ\web_yolo
+C:\Users\PJ\web_yolo\Scripts\python.exe app.py
